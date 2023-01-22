@@ -1,18 +1,16 @@
-.body {
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--main-text-color);
-    background-color: var(--white-color);
+html {
+    box-sizing: border-box;
 }
 
-.section{
-    margin-right: auto;
-    margin-left: auto;
-    
-    width: 100%;
-    padding-top: 94px;
-    padding-bottom: 94px;
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background-color: $mainPageColor;
+    color: $primaryTextColor;
+    font-family: Roboto, sans-serif;
 }

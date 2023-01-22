@@ -1,28 +1,29 @@
-// Utils
+    // utils
 @import './utils/fonts';
 @import './utils/variables';
-
 // base
 @import './base/base';
 @import './base/reset';
-
 // components
-@import './components/about-section';
-@import './components/backdrop';
-@import './components/benefits-section';
-@import './components/buttons';
-@import './components/clients-section';
-@import './components/components';
-@import './components/hero-section';
-@import './components/logo';
-@import './components/modal';
-@import './components/overlay';
-@import './components/page-auth';
-@import './components/page-footer';
-@import './components/page-header';
-@import './components/portfolio';
-@import './components/sign-box';
-@import './components/team-section';
 
-// layouts
-@import './layout/containers';
+@import './components/button';
+@import './components/clientage';
+@import './components/features';
+@import './components/hero-section';
+@import './components/modal';
+@import './components/portfolio-filter';
+@import './components/portfolio-project';
+@import './components/section-work';
+@import './components/social';
+@import './components/subscription';
+@import './components/team';
+// layout
+@import './layout/address';
+@import './layout/contact-list';
+@import './layout/container';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/logo';
+@import './layout/section';
+@import './layout/mobile-menu'
+
