@@ -1,0 +1,21 @@
+.hero-section{
+    
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    &__header {
+        margin-top: 0;
+        margin-bottom: 0;
+    
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        
+        color:var(--white-color);
+        text-transform: uppercase;
+    }
+}
