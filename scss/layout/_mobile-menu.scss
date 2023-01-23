@@ -8,6 +8,7 @@
     padding: 48px 40px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: #fff;
     z-index: 999;
     overflow-y: scroll;
@@ -42,7 +43,7 @@
     }
 
     &__nav {
-        margin-bottom: 306px;
+
     }
 
     &__nav-item {

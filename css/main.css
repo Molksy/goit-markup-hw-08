@@ -1523,6 +1523,9 @@ address {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #fff;
   z-index: 999;
   overflow-y: scroll;
@@ -1564,9 +1567,6 @@ address {
   .mobile-menu__button {
     display: none;
   }
-}
-.mobile-menu__nav {
-  margin-bottom: 306px;
 }
 .mobile-menu__nav-item {
   margin-bottom: 32px;
